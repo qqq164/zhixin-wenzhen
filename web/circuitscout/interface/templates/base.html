@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CircuitScout · 悟净电路探测</title>
+    <link rel="stylesheet" href="/static/css/main.css?v=zh20261006">
+    <link rel="stylesheet" href="/static/css/kicanvas.css">
+    <script src="/static/js/socket.io.min.js"></script>
+    <script src="/static/js/p5.min.js"></script>
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>CircuitScout · 悟净</h1>
+        </div>
+
+        <div>
+            <button id="nav-button-settings" class="clickable">设置</button>
+            <button id="nav-button-help" class="clickable">帮助</button>
+            <button id="nav-button-information" class="clickable">项目信息</button>
+        </div>
+    </nav>
+    <main>
+        <div id="left-pannel" class="pannel">
+            <form id="connection-section" class="pannel-section" method="post" action="/serial/connect_device" target="hiddenFrame">
+                <h2>串口连接</h2>
+                <p>端口与波特率</p>
+                <div class=" pannel-sixty-thirty">
+                    <select id="connection-port-select" class="clickable" name="port" onchange="updateSelectedDevice(this)"></select>
+                    <button id="connection-port-refresh-button" class="clickable" type="button" onclick="refreshDevices()">刷新</button>
+                </div>
+                <div class=" pannel-sixty-thirty">
+                    <select id="connection-baud-select" class="clickable" name="baudrate">
+                        <option value="9600">9600</option>
+                        <option value="19200">19200</option>
+                        <option value="38400">38400</option>
+                        <option value="57600">57600</option>
+                        <option value="74880">74880</option>
+                        <option value="115200" selected>115200</option>
+                    </select>
+                    <button id="connection-button" class="clickable" type="submit">连接</button>
+                </div>
+            </form>
+            <hr>
+            <div id="control-section" class="pannel-section">
+                <h2>探针控制</h2>
+                <p>左探针</p>
+                <div>
+                    <button id="left-move-top-button" class="clickable control-button">上移</button>
+                </div>
+                <div>
+                    <button id="left-move-left-button" class="clickable control-button">左</button>
+                    <button id="left-move-probe-button" class="clickable control-button">下探</button>
+                    <button id="left-move-right-button" class="clickable control-button">右</button>
+                </div>
+                <div>
+                    <button id="left-move-bottom-button" class="clickable control-button">下移</button>
+                </div>
+
+                <div class="small-offset"></div>
+                <p>右探针</p>
+                <div>
+                    <button id="right-move-top-button" class="clickable control-button">上移</button>
+                </div>
+                <div>
+                    <button id="right-move-left-button" class="clickable control-button">左</button>
+                    <button id="right-move-probe-button" class="clickable control-button">下探</button>
+                    <button id="right-move-right-button" class="clickable control-button">右</button>
+                </div>
+                <div>
+                    <button id="right-move-bottom-button" class="clickable control-button">下移</button>
+                </div>
+            </div>
+            <hr>
+            <form id="console-section" class="pannel-section" method="post" action="/serial/send_command" target="hiddenFrame">
+                <div id="console-output">
+                </div>
+                <div class="pannel-seventy-twenty">
+                    <input id="console-input" class="clickable" name="command" type="text" placeholder="输入控制命令" required minlength="1">
+                    <button id="console-send-button" class="clickable" type="submit">发送</button>
+                </div>
+            </form>
+            <form id="command-batch-section" class="pannel-section" method="POST" action="/serial/upload_command" enctype=multipart/form-data target="hiddenFrame">
+                <div class="pannel-seventy-twenty">
+                    <div class="custom-file-upload-group">
+                        <label for="command-file" id="command-file-button" class="clickable custom-file-upload">
+                            选择 .pcbpt 命令文件
+                        </label>
+                        <input type="file" id="command-file" class="file-upload-input" name="command_file" accept=".pcbpt" onchange="subFile(this, 'command')" required>
+                    </div>
+                    <button id="command-upload-button" class="clickable" type="submit">上传</button>
+                </div>
+            </form>
+        </div>
+        <div id="main-view">
+            <div id="main-display-selection">
+                <button id="main-display-schematics-button" class="main-display-button" onclick="switchToSchematics()">原理图</button>
+                <button id="main-display-pcb-3D-button" class="main-display-button" onclick="switchToPCB('3D')">PCB 三维视图</button>
+                <button id="main-display-pcb-2D-button" class="main-display-button main-display-button-selected" onclick="switchToPCB('2D')">PCB 二维视图</button>
+            </div>
+            <div id="main-schematics-section" class="main-display-section" hidden></div>
+            <div id="main-pcb-3D-section" class="main-display-section" hidden></div>
+            <div id="main-pcb-2D-section" class="main-display-section"></div>
+        </div>
+        <div id="right-pannel" class="pannel">
+            <form method="POST" class="pannel-section" action="/kicad/process_files" enctype=multipart/form-data target="hiddenFrame">
+                <h2>导入电路文件</h2>
+                <div class="small-offset"></div>
+                <div class="custom-file-upload-group">
+                    <label for="schematics-file" id="schematics-file-button" class="clickable custom-file-upload">
+                        选择原理图（.kicad_sch）
+                    </label>
+                    <input type="file" id="schematics-file" class="file-upload-input"  name="schematics_file" accept=".kicad_sch" onchange="subFile(this, 'schematics')" required>
+                </div>
+                <div class="custom-file-upload-group">
+                    <label for="layout-file" id="layout-file-button" class="clickable custom-file-upload">
+                        选择 PCB（.kicad_pcb）
+                    </label>
+                    <input type="file" id="layout-file" class="file-upload-input" name="layout_file" accept=".kicad_pcb" onchange="subFile(this, 'layout')" required>
+                </div>
+                <button id="upload-button" class="clickable">上传</button>
+            </form>
+            <hr>
+            <div id="layout-config-selection-section" class="pannel-section">
+                <h2>电路板方向</h2>
+
+                <div id="orientation-selection" class="full-line">
+                    <button id="orientation-selection-first-button" class="clickable orientation-selection-button orientation-selection-button-selected" onclick="switchOrientation(0)">0°</button>
+                    <button id="orientation-selection-second-button" class="clickable orientation-selection-button" onclick="switchOrientation(90)">90°</button>
+                    <button id="orientation-selection-third-button" class="clickable orientation-selection-button" onclick="switchOrientation(180)">180°</button>
+                    <button id="orientation-selection-fourth-button" class="clickable orientation-selection-button" onclick="switchOrientation(270)">270°</button>
+                </div>
+            </div>
+            <hr>
+            <form id="net-selection-section" class="pannel-section" action="/kicad/select_nets" method="post" target="hiddenFrame">
+                <h2>网络选择</h2>
+
+                <div class="pannel-twenty-seventy">
+                    <div>
+                        <input id="net-selection-first-mouse-select" class="net-selection-slider" type="checkbox"/>
+                        <label class="clickable toggle" for="net-selection-first-mouse-select" onclick="untoggle('second');untoggleCandidate('first');untoggleCandidate('second')">点选</label>
+                    </div>
+                    <select id="net-selection-first-select" class="clickable" name="first-net"></select>
+                </div>
+
+                <div class="pannel-twenty-seventy">
+                    <div>
+                        <input id="net-selection-second-mouse-select" class="net-selection-slider" type="checkbox"/>
+                        <label class="clickable toggle" for="net-selection-second-mouse-select" onclick="untoggle('first');untoggleCandidate('first');untoggleCandidate('second')">点选</label>
+                    </div>
+                    <select id="net-selection-second-select" class="clickable" name="second-net"></select>
+                </div>
+
+                <button id="clickable net-selection-button" class="clickable">查找候选测点</button>
+                <p id="net-selection-status"></p>
+            </form>
+            <hr>
+            <div class="pannel-section">
+                <h2>探针测点选择</h2>
+                <div class=" pannel-fifty-fifty">
+                    <div>
+                        <input id="candidates-selection-first-mouse-select" class="net-selection-slider" type="checkbox"/>
+                        <label id="candidates-selection-first-label" class="clickable toggle" for="candidates-selection-first-mouse-select" onclick="untoggleCandidate('second');untoggle('first');untoggle('second')">左探针：</label>
+                    </div>
+
+                    <div>
+                        <input id="candidates-selection-second-mouse-select" class="net-selection-slider" type="checkbox"/>
+                        <label id="candidates-selection-second-label" class="clickable toggle" for="candidates-selection-second-mouse-select" onclick="untoggleCandidate('first');untoggle('first');untoggle('second')">右探针：</label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="pannel-section">
+                <h2>探针位置补偿</h2>
+                <div class="pannel-fifty-fifty">
+                    <p>左</p>
+                    <p>右</p>
+                </div>
+                <div class="pannel-fourty-fourty">
+                    <input id="probe-left-x-offset" class="clickable" type="number" value="0" min="-100" max="100" step="0.1" onchange="updateProbeOffsets()">
+                    <p>X</p>
+                    <input id="probe-right-x-offset" class="clickable" type="number" value="0" min="-100" max="100" step="0.1" onchange="updateProbeOffsets()">
+                </div>
+                <div class="pannel-fourty-fourty">
+                    <input id="probe-left-y-offset" class="clickable" type="number" value="0" min="-100" max="100" step="0.1" onchange="updateProbeOffsets()">
+                    <p>Y</p>
+                    <input id="probe-right-y-offset" class="clickable" type="number" value="0" min="-100" max="100" step="0.1" onchange="updateProbeOffsets()">
+                </div>
+            </div>
+            <hr>
+            <div class="pannel-section">
+                <button id="probe-button" class="clickable" onclick="sendProbeCommand()">移动到测点</button>
+            </div>
+        </div>
+    </main>
+    <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+    <script type="module" src="/static/js/kicanvas/kicanvas.js?v=zh20261006"></script>
+    <script src="/static/js/main.js?v=zh20261006"></script>
+    <script src="/static/js/socket.js?v=zh20261006"></script>
+</body>
+</html>

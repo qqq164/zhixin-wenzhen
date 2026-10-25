@@ -1,0 +1,16 @@
+{
+  "schema": "FDW_RC_NETWORK_V1",
+  "model_id": "example_only_two_stage_rc_not_actual_dut",
+  "description": "仅供验证的两级RC梯形网络，不代表队友手中的实际DUT。A为Rs前测点；B、C为两级节点。",
+  "nodes": ["A", "B", "C"],
+  "ground": "GND",
+  "reference_node": "A",
+  "boundary_voltages_relative": {"A": [1.0, 0.0]},
+  "elements": [
+    {"id": "Rs", "kind": "R", "a": "A", "b": "B", "value": 100.0},
+    {"id": "C1", "kind": "C", "a": "B", "b": "GND", "value": 1e-7},
+    {"id": "R2", "kind": "R", "a": "B", "b": "C", "value": 1000.0},
+    {"id": "C2", "kind": "C", "a": "C", "b": "GND", "value": 1e-8},
+    {"id": "R3", "kind": "R", "a": "C", "b": "GND", "value": 10000.0}
+  ]
+}

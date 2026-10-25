@@ -1,0 +1,42 @@
+{
+  "状态日期": "2026-10-25",
+  "性质": "既有验收记录的公开摘要，本次整理未进行新的硬件测量",
+  "鹿小班7020固化113": {
+    "passed": true,
+    "scope": "鹿小班R4镜像QSPI烧写、全片读回及断电冷启动验收",
+    "boot_sha256": "641a3cd096e894083620c04dd6210b583622a66f358052527e96485f33378220",
+    "flash_program_tool_passed": true,
+    "full_flash_independent_readback_passed": true,
+    "coldboot_passed": true,
+    "external_adc_dac_pwm_network_function_accepted": false
+  },
+  "CPU求解器112": {
+    "passed": true,
+    "board_cpu_tests": 25,
+    "cross_cpu_results_passed": true,
+    "physical_dut_measured": false,
+    "pl_modified": false,
+    "boot_modified": false
+  },
+  "工程审查114": {
+    "python_tests": {
+      "cpu_rc": 25,
+      "wujing_clients_features": 21,
+      "r4_transport_phase": 4,
+      "total": 50,
+      "passed": true
+    },
+    "native_groups": {
+      "count": 3,
+      "passed": true
+    },
+    "formal_system_acceptance": false
+  },
+  "悟净PL97": {
+    "ABI": "0x20261014",
+    "SD冷启动通过": true,
+    "回归帧数": 12,
+    "IQ整数核对项": 84,
+    "FFT复数频点核对项": 36
+  }
+}

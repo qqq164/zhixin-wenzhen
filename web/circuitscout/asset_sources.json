@@ -1,0 +1,7 @@
+{
+  "socket.io.min.js": {
+    "source": "https://cdn.socket.io/4.5.4/socket.io.min.js",
+    "sha256": "18a36a927dac54650b18b903f8f8778219e02e13946e581d9b3e1e4995f7435b",
+    "bytes": 44191
+  }
+}

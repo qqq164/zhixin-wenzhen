@@ -1,0 +1,1066 @@
+{
+  "整理日期": "2026-10-25",
+  "复制策略": "读取原工程并逐文件复制；内容摘要用于核对来源",
+  "files": [
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/ad9226_axis_source.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/ad9226_axis_source.v",
+      "sha256": "3cc855bba46b60bb83e9934dad00c81bced66c2df137ae1774f78eb480572203",
+      "bytes": 4846
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_command.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_command.v",
+      "sha256": "fdb45fb56ab04c24a6fb2f130a59f30d98cc2312b33d3740df2fd1a4d88fb66f",
+      "bytes": 3908
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_command_cdc.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_command_cdc.v",
+      "sha256": "0df10a7b7f0494a1d0932d78bebb83605e59b8b74ccbc73aa035201b0ae527c9",
+      "bytes": 4514
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_frame_record.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_frame_record.v",
+      "sha256": "181e5178488d1835641839c50b5a2dd0cf4381ea6cd1dd4d12ca68cec94c53bb",
+      "bytes": 2654
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_phase_axis_source.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_phase_axis_source.v",
+      "sha256": "0a3e3f9004c66e268cbeefd596c41263d2dffece5240b24ba59ca3f2e27bdffd",
+      "bytes": 10969
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_prepare.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_prepare.v",
+      "sha256": "a489c9b43de52b8cdb3451807f8bb869414a87601f8773555cd28640ce63a3e0",
+      "bytes": 7020
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_record.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_record.v",
+      "sha256": "cb4a20b45ed13401c22b580512217e18b4af17d9baa7193724d2c799815ca8f5",
+      "bytes": 2246
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_trigger_gate.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_adc_trigger_gate.v",
+      "sha256": "fec058e2e3861c31f05e5bfa8dd234b52f08f6c3f4feed59c4f493cff9f3c79c",
+      "bytes": 2837
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_frame_readback.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_frame_readback.v",
+      "sha256": "c86e80da7409bb62bd2d28fa3e18ec535684b58a68e650df0b1027cb851d9074",
+      "bytes": 3829
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_mailbox.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_mailbox.v",
+      "sha256": "a7a677fd11425ccd5c8b21e92566075436be8ab085fcd7e6dec17eb54e7ec625",
+      "bytes": 3196
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_readback.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_readback.v",
+      "sha256": "03a423bad904e7cd1b5aa8a551dd5536a92628009040ba15df99f8a0b934ab4e",
+      "bytes": 4347
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_snapshot.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_cdc_snapshot.v",
+      "sha256": "1a8603df219372557671d04a8bc58d28a916cf24af4522153a57abbd32eaffd0",
+      "bytes": 3023
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_cic3_decimator.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_cic3_decimator.v",
+      "sha256": "15cd618bf165055a27fd8d89b6bf2c149b357c7fdf148d91b06038e92bfbc12d",
+      "bytes": 5659
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_control.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_control.v",
+      "sha256": "09c1f92d4b57a7f1b66e39619466a52a3c433c66146bd14c9a0a357ab64db234",
+      "bytes": 12174
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_dds.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_dds.v",
+      "sha256": "69e09e100cc18a9db40dd05eeb5ec91e5d4b1615e15a3c753cfa64aebbfcea8e",
+      "bytes": 5804
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_output.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_output.v",
+      "sha256": "960fa907a0598b0282cd1715332fa3c0653eb078f6276bf860b05e70db751b20",
+      "bytes": 2023
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_phase_control.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_dac902_phase_control.v",
+      "sha256": "0f970c8b997be1c38625f183398891d42ed81065e637d841ffe47e9f0fc1bdd2",
+      "bytes": 13619
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_digital_axi.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_digital_axi.v",
+      "sha256": "380744de2176c00497fe920067d4969f57369aa831cc904bb4d46dc0de7f674b",
+      "bytes": 12252
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_digital_capture.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_digital_capture.v",
+      "sha256": "f3013677caedfec25e7077ee2c96ad9c60727a1262e7f3ee5a6db91c5152ed56",
+      "bytes": 5968
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_event_cdc.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_event_cdc.v",
+      "sha256": "8ba092197e6bf858bfc3c6ba261ac3518b085bba413c7e2d27124ec42a7bc6ad",
+      "bytes": 2417
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_lxb_mdio.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_lxb_mdio.v",
+      "sha256": "5ee75fc215410012fc52898d7c3923a966f297a1400e64eeea002176e439938b",
+      "bytes": 296
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_lxb_probe_io.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_lxb_probe_io.v",
+      "sha256": "55b57a7f463666aff3f3c43e90a5e2127281d99b02cfea33aa7591723fff579c",
+      "bytes": 725
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_phase_query_bridge.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_phase_query_bridge.v",
+      "sha256": "6c956a67d2c9a9a0fe1ce89ad21a27d8f1523a167254f86655780269e51738b7",
+      "bytes": 3436
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_phase_reference.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_phase_reference.v",
+      "sha256": "2e65cf6d4682a448b1eeb0aeb029517f5b36f4ac371589477a003703d73e9854",
+      "bytes": 4618
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_probe_router.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_probe_router.v",
+      "sha256": "8031a3b8f240e7fe72c31b1eb97d2288516bc3faf1bb14631bbb909fdd9a23d3",
+      "bytes": 4872
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_axi.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_axi.v",
+      "sha256": "2f21e3b5d683b7cb00454c5f23192937b3fe9e15f7ecab841871dfbd22d60630",
+      "bytes": 8579
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_burst.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_burst.v",
+      "sha256": "4396efb0704bf918def54e80a9aece96c27154c1e33f3a7585181afaa558c281",
+      "bytes": 3794
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_burst_axi.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_burst_axi.v",
+      "sha256": "28061aeef9539f3e74c4497fd1e9653f5310f4312840a246aeca823b3163494b",
+      "bytes": 9832
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_core.v",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_pwm_core.v",
+      "sha256": "0ade141634cb0ab584a006ab3fdac376c9c99a0b109e1dbcefddb4b553d900ef",
+      "bytes": 3965
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/rtl/fdw_sine12_4096.mem",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/rtl/fdw_sine12_4096.mem",
+      "sha256": "7417f80989db6354aae20e710517586e320fc3f2912e172ff11f25c91b7896a8",
+      "bytes": 20480
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/constrs/ad9226_timing.xdc",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/constrs/ad9226_timing.xdc",
+      "sha256": "18ab8dcde3726b2e8e015372eef952be495cb526fd6872bb5f52ac99d0a0d96d",
+      "bytes": 790
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/constrs/dac902_timing.xdc",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/constrs/dac902_timing.xdc",
+      "sha256": "89796878abef118658736896988567298e18a9337d6fb30863f506e5d54705bb",
+      "bytes": 681
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/constrs/digital_async_timing.xdc",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/constrs/digital_async_timing.xdc",
+      "sha256": "2f477acf78ba2bfb60636ab5f0d40c6aeeda8a9f1d65b60ccaf898efca77ab4e",
+      "bytes": 503
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/constrs/ethernet_clock.xdc",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/constrs/ethernet_clock.xdc",
+      "sha256": "2d889dff0be669a166a491e266c6634a3e7ebf47f94e5dae943f64bd0f1a3f16",
+      "bytes": 221
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/constrs/lxb_board_pins.xdc",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/constrs/lxb_board_pins.xdc",
+      "sha256": "511168d2b1eea0203f4f10bd7f95caa6f278b7e4caf4252d5cf25e5f6cf8a83f",
+      "bytes": 4578
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/system.bd",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/system.bd",
+      "sha256": "850a6c0c626ed5d706aeb2352ff139b6ab18d157eabef42b29ca23d438baba1c",
+      "bytes": 134554
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/create_project.tcl",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/create_project.tcl",
+      "sha256": "9c914b56331ac29750ab885e54037f3ba1471aba64319fa5989e9809318c669a",
+      "bytes": 8955
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/hold_guard.tcl",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/hold_guard.tcl",
+      "sha256": "46c4cfaa66cbbaa45f2fe294dda78890c14c4ac72f595dc8185410f409a48def",
+      "bytes": 222
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/audit_routed.tcl",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/audit_routed.tcl",
+      "sha256": "36f7d19f3c796d523487b5d42526f3be16a713020e51a0f11615ea0cc3eb835e",
+      "bytes": 3630
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/tb_lxb_probe_io.sv",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/tb_lxb_probe_io.sv",
+      "sha256": "422e0e9d709f4e6e254bf7b798668da902956d95d9b6d579c809d79d0bf4d64c",
+      "bytes": 3221
+    },
+    {
+      "path": "hardware/7020/candidates/lxb_r4_port/test_probe_io.py",
+      "source": "FDW_NEXT/hardware/7020/candidates/lxb_r4_port/test_probe_io.py",
+      "sha256": "75c23d30b38d87ec5405b634bb8462c828ec67a1354ef6d06f7d29687330ceab",
+      "bytes": 2219
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_adc_capture.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_adc_capture.c",
+      "sha256": "f3adc35a4134f192774382c4633fecec3cb68a8cb35e2211238f6fb558d49a3b",
+      "bytes": 10627
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_adc_capture.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_adc_capture.h",
+      "sha256": "2ec2e6d3865e98f333389105878889178ce66261d45075ba9bdfc3b6f2038a74",
+      "bytes": 1395
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_adc_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_adc_control.c",
+      "sha256": "c584e45a76673cfe521e43363bad8062917e46aadf8ab69c5516b2065bca6905",
+      "bytes": 5511
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_adc_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_adc_control.h",
+      "sha256": "23f1d6862877c7df942df00d805babf49a4f198a8fd7ca8f2e348cfd029c313d",
+      "bytes": 1105
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_bulk_frame.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_bulk_frame.c",
+      "sha256": "0aa5011e978d1ccee54bddc0e3cf550700937361f96055e8040cebaa78361851",
+      "bytes": 2662
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_bulk_frame.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_bulk_frame.h",
+      "sha256": "0f06c55c3148e3c57861a477c4ae6947e12eb8dec85f1bab4e20f9bb2ced3c8b",
+      "bytes": 412
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_dac_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_dac_control.c",
+      "sha256": "dce355b68d2ccbbef0964734de3448feec1c9c49439232fcfc25361980a8ae2e",
+      "bytes": 6347
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_dac_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_dac_control.h",
+      "sha256": "2de7232cd10712cb3fec51ff1c3f9c272bcd4a8ad5ff16468f64285d8f8f465c",
+      "bytes": 738
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_digital_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_digital_control.c",
+      "sha256": "b1aeae6fa2e6456b37ecfa551817a3201d771067b2691884882db8f1bd0a9a10",
+      "bytes": 3778
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_digital_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_digital_control.h",
+      "sha256": "2fe79ddc9ba94b80a35ca826d29f7d72d8026132df8993a1b6d5af0bae453197",
+      "bytes": 1011
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_irq_vectors.S",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_irq_vectors.S",
+      "sha256": "cef1027c889dbfaa92bc89b1c11b5ea2f81916ca4e46906cdcbcaf50c30a8732",
+      "bytes": 5020
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_lxb_io.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_lxb_io.c",
+      "sha256": "4bc4337e16b8316a9cf8a287095b40e4dfc2a9ed291e537a139625d4836fb92a",
+      "bytes": 4064
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_lxb_io.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_lxb_io.h",
+      "sha256": "b804e7c72b5dc1cd247fcc47db10e6f1f2a96f1b0cd596992133087c66df28e2",
+      "bytes": 738
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_lxb_phy.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_lxb_phy.c",
+      "sha256": "a117483a2cc2c4ec96829199a002e9bfa7dfed216ec22603b786eb8ac90d3a45",
+      "bytes": 1532
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_lxb_phy.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_lxb_phy.h",
+      "sha256": "ca8fcc24d3370c640e1092469a5d02fc6003a36253d0176e7230a85f5314ed20",
+      "bytes": 370
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_lxb_physpeed.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_lxb_physpeed.c",
+      "sha256": "749521e1fcb61f176f8f4e9605c29c446e0115c9e98a83956a0a45e0cdaf8f3e",
+      "bytes": 54419
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_phase_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_phase_control.c",
+      "sha256": "87d91e41a622eda8ca12db9587cd2ea7c20ae97decbc2d449c9286e15350dde2",
+      "bytes": 7815
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_phase_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_phase_control.h",
+      "sha256": "f6d466dc85e045cc5f3510642979477351c5f6b4fd74dea0bf142c67a3f708cd",
+      "bytes": 940
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_probe_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_probe_control.c",
+      "sha256": "5906432d9481794aa10dc709813c74dcb3b2c64c2c20a83d93b27568891789f5",
+      "bytes": 5350
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_probe_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_probe_control.h",
+      "sha256": "bc7092b8661895cc5f18da65d40b102e103df4643ca5f6b186d5673c0ed97b45",
+      "bytes": 1165
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_pwm_control.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_pwm_control.c",
+      "sha256": "c585d6d6298ec0caab6355886cd2a250225c871c4fcedf231a48572dbfc05268",
+      "bytes": 2778
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/fdw_pwm_control.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/fdw_pwm_control.h",
+      "sha256": "98230e58ed989d42fa78a57b1b9225ca2f88e9617cb72bcc7f703f2499b71872",
+      "bytes": 590
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/lscript.ld",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/lscript.ld",
+      "sha256": "428cb484487820965a82a7e9fd5bb3fcb35b3158826d7356772e8087d4062426",
+      "bytes": 6363
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/main.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/main.c",
+      "sha256": "7af2c66e1435b0f1c47914c99d5861b8c8d1bc676b83afdcec0e082ba4cfd77f",
+      "bytes": 6695
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/platform.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/platform.c",
+      "sha256": "35241dfb6de794f8d7f8d9e95dc7ff0ed33e9a6cf5be537e2163039db86f0d1f",
+      "bytes": 6118
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/platform.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/platform.h",
+      "sha256": "c3bfd8904a6a26899d0262c17b3f17f130cea69bd3be682487c7135926d02116",
+      "bytes": 2151
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/platform_config.h",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/platform_config.h",
+      "sha256": "5a05e4893049ff9212107c766add26204dbc9538805ed1420741eb469e3a180b",
+      "bytes": 195
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/src/tcp_server.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/src/tcp_server.c",
+      "sha256": "5fdb852add2e7c9dec33c970cdf167e0b6840665f62ea970454ae10243245902",
+      "bytes": 34250
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/tests/run_tests.py",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/tests/run_tests.py",
+      "sha256": "56791ae48622c08d5350e2eebf0ffd8e2fe6c51b7837ad14ced3cf4cf2020276",
+      "bytes": 7186,
+      "source_sha256": "d40937818b267bed18e882ba5aff27d846887701187dc85f737e6bb44e741d39",
+      "adaptation": "公开副本仅适配测试夹具路径、输出目录创建或编译器定位；原工程未修改"
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/tests/test_lxb_io.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/tests/test_lxb_io.c",
+      "sha256": "3fb645b99571c74fbff44204aed14f0d020fd4b2ea469ab9f13f361f69a3afd5",
+      "bytes": 4196
+    },
+    {
+      "path": "software/7020/candidates/lxb_r4_port/tests/test_lxb_phy.c",
+      "source": "FDW_NEXT/software/7020/candidates/lxb_r4_port/tests/test_lxb_phy.c",
+      "sha256": "c70b5fbca939916d23b5791270b60278973d89563580e2a33459098cb6f215ed",
+      "bytes": 2407
+    },
+    {
+      "path": "software/7020/candidates/dig5_r4_lowrate_bulk/tests/test_tcp_server.c",
+      "source": "FDW_NEXT/software/7020/candidates/dig5_r4_lowrate_bulk/tests/test_tcp_server.c",
+      "sha256": "d79c7d3e66114d7632860e0d388d900126dbad65d3e7b0b89f2289dfe61f016e",
+      "bytes": 19302
+    },
+    {
+      "path": "software/wujing/adc_client.py",
+      "source": "FDW_NEXT/software/wujing/adc_client.py",
+      "sha256": "d5b3eae1649bc83d4e424ff1e76608f3ef68a61a6a9518b44de41ef3c2058139",
+      "bytes": 4932
+    },
+    {
+      "path": "software/wujing/adc_features.py",
+      "source": "FDW_NEXT/software/wujing/adc_features.py",
+      "sha256": "69a7616614a5af1d319286a8e0c9fcb6057a7ae1c5bdf0dacfd61d3a3c5b8ce3",
+      "bytes": 7435
+    },
+    {
+      "path": "software/wujing/adc_sync_client.py",
+      "source": "FDW_NEXT/software/wujing/adc_sync_client.py",
+      "sha256": "b16624b4dff5debac2ceaaafad49013e281cf74927ba110884369c3b34167f9e",
+      "bytes": 6876
+    },
+    {
+      "path": "software/wujing/analog_dig5_client.py",
+      "source": "FDW_NEXT/software/wujing/analog_dig5_client.py",
+      "sha256": "f0a3dfe0baef810192e9d899923c36c80e01637ee271fe41d9458da76bf152b8",
+      "bytes": 6375
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/pl_runtime/__init__.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/pl_runtime/__init__.py",
+      "sha256": "3f3727fb4c07ef063ab5bf8ee324cb70b18b974b0c3b67e324916be3c933c346",
+      "bytes": 91
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/pl_runtime/phase_contract.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/pl_runtime/phase_contract.py",
+      "sha256": "c81850f7f3c0421bd5669ec93d6f4e5c94136ec51732809387561e4d7c40abc2",
+      "bytes": 6276
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/pl_runtime/processor.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/pl_runtime/processor.py",
+      "sha256": "c6f1f7281b0bec27d90da12dae899820d17ccbe6f62c60163bc4d96e508102bf",
+      "bytes": 2167
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/pl_runtime/sdk_backend.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/pl_runtime/sdk_backend.py",
+      "sha256": "574db3a39589ba225429ec6eed00554fd717f1ab9a1e6af32fa2758841a211dd",
+      "bytes": 6923
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/r4_board_validation.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/r4_board_validation.py",
+      "sha256": "02c2ae9420483171e461f4810a51b472011647b4563f08a49f487f2ae152d684",
+      "bytes": 10437
+    },
+    {
+      "path": "software/wujing/candidates/r4_lowrate_bulk/r4_capture_client.py",
+      "source": "FDW_NEXT/software/wujing/candidates/r4_lowrate_bulk/r4_capture_client.py",
+      "sha256": "3a07a019d7ac8b84ce16cceead28d75f193de7024ad54ba24b8ac78cc732574d",
+      "bytes": 5723
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/examples/model_rc_ladder.json",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/examples/model_rc_ladder.json",
+      "sha256": "13800313fb1652de9b832f0de16050a4ce9552893a80c06860c0373485c10275",
+      "bytes": 715
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/rc_network.py",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/rc_network.py",
+      "sha256": "d344bbb562137392436d1c3b981b1ad93520b56a44fccc2c02721da88dc32dc2",
+      "bytes": 22109
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/README.md",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/README.md",
+      "sha256": "b464810bac95bf21ce4044ba91b4b0a74f8b869eefa1a10b2afa4b6ed01451f3",
+      "bytes": 6140
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/run_cpu_validation.py",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/run_cpu_validation.py",
+      "sha256": "1be6b807c06dcf9bfa1c5009ae5188d5e1b6395711b7cf2a7c6b601d5c3ca29b",
+      "bytes": 4159
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/run_rc_network.py",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/run_rc_network.py",
+      "sha256": "0491fbc0cb941e8608fd057ddf7d57c1634e8d4999dff7150020086d0882c69c",
+      "bytes": 1609
+    },
+    {
+      "path": "software/wujing/candidates/rc_network_cpu_v1/test_rc_network.py",
+      "source": "FDW_NEXT/software/wujing/candidates/rc_network_cpu_v1/test_rc_network.py",
+      "sha256": "ab23f17738d42c8ac7b4d51f7392cc2937acea33d0915e3df7eff2291742fff0",
+      "bytes": 15385
+    },
+    {
+      "path": "software/wujing/digital_client.py",
+      "source": "FDW_NEXT/software/wujing/digital_client.py",
+      "sha256": "e426fe9304af74cdc828db5f2c62206183e17eb9f7529dff8465faa00aa72922",
+      "bytes": 7811
+    },
+    {
+      "path": "software/wujing/digital_features.py",
+      "source": "FDW_NEXT/software/wujing/digital_features.py",
+      "sha256": "1148cfaf3373134e38ec6246585ea6672714017e9b279cd9757132573e08c2cb",
+      "bytes": 6473
+    },
+    {
+      "path": "software/wujing/loopback_client.py",
+      "source": "FDW_NEXT/software/wujing/loopback_client.py",
+      "sha256": "ddb4f39a72abf64181316965491d5f79b45fd7ca4d72fea931c44dd0967a2948",
+      "bytes": 10531
+    },
+    {
+      "path": "software/wujing/no_mechanics_flow.py",
+      "source": "FDW_NEXT/software/wujing/no_mechanics_flow.py",
+      "sha256": "205d97e1364b8b7029a69769218a272f60891bd8bda6b5da4631223a20c9ad4e",
+      "bytes": 16018
+    },
+    {
+      "path": "software/wujing/phase_capture_client.py",
+      "source": "FDW_NEXT/software/wujing/phase_capture_client.py",
+      "sha256": "cfe1f0e65bcb55a229b2a95941d5c6c440bd2175d0329961347719369bcf5958",
+      "bytes": 6518
+    },
+    {
+      "path": "software/wujing/pl_runtime/__init__.py",
+      "source": "FDW_NEXT/software/wujing/pl_runtime/__init__.py",
+      "sha256": "3f3727fb4c07ef063ab5bf8ee324cb70b18b974b0c3b67e324916be3c933c346",
+      "bytes": 91
+    },
+    {
+      "path": "software/wujing/pl_runtime/phase_contract.py",
+      "source": "FDW_NEXT/software/wujing/pl_runtime/phase_contract.py",
+      "sha256": "984e8695608618210563bd301f023931e9d8752aded4ed37e7a40c362f596f62",
+      "bytes": 5625
+    },
+    {
+      "path": "software/wujing/pl_runtime/processor.py",
+      "source": "FDW_NEXT/software/wujing/pl_runtime/processor.py",
+      "sha256": "1ac4c1370f373a08b1a2fb84bee17726432db66f6bdade1f5f6718403dbcfe7d",
+      "bytes": 2130
+    },
+    {
+      "path": "software/wujing/pl_runtime/sdk_backend.py",
+      "source": "FDW_NEXT/software/wujing/pl_runtime/sdk_backend.py",
+      "sha256": "574db3a39589ba225429ec6eed00554fd717f1ab9a1e6af32fa2758841a211dd",
+      "bytes": 6923
+    },
+    {
+      "path": "software/wujing/probe_client.py",
+      "source": "FDW_NEXT/software/wujing/probe_client.py",
+      "sha256": "5c838bff8d1a23b51806367a9284c8744d1fd6ffccd0c9eb2860423b7c5c68af",
+      "bytes": 4408
+    },
+    {
+      "path": "software/wujing/pwm_client.py",
+      "source": "FDW_NEXT/software/wujing/pwm_client.py",
+      "sha256": "1fe18e3a140fb6679926b458311ce22d2e0b552a0bdb9807d73c3513b36cbb4e",
+      "bytes": 3926
+    },
+    {
+      "path": "software/wujing/run_no_mechanics_flow.py",
+      "source": "FDW_NEXT/software/wujing/run_no_mechanics_flow.py",
+      "sha256": "2229b684aa986af9264b50f7e90e6f6544cdc021b929a0c469f08855fdd46e8b",
+      "bytes": 2508
+    },
+    {
+      "path": "software/wujing/tests/test_adc_features.py",
+      "source": "FDW_NEXT/software/wujing/tests/test_adc_features.py",
+      "sha256": "bc77603074f03aad49dea42a804a4568277e7421954377dd4c67fe2c2b61cbf1",
+      "bytes": 3085
+    },
+    {
+      "path": "software/wujing/tests/test_adc_sync_client.py",
+      "source": "FDW_NEXT/software/wujing/tests/test_adc_sync_client.py",
+      "sha256": "0e122bbf3a350e3aa8b2d27953ffbc98125e4d230781c7667c30efd74024471b",
+      "bytes": 6618
+    },
+    {
+      "path": "software/wujing/tests/test_analog_dig5_client.py",
+      "source": "FDW_NEXT/software/wujing/tests/test_analog_dig5_client.py",
+      "sha256": "1c5f545a549090aa1d35b4b8338caffb4052fc5406a4fa676fd2fd883c5ea884",
+      "bytes": 3692
+    },
+    {
+      "path": "software/wujing/tests/test_digital_features.py",
+      "source": "FDW_NEXT/software/wujing/tests/test_digital_features.py",
+      "sha256": "09723eec90cd5f152d47e10c8a5c58e11da4ce9cf08ba1e705209165d384a2b7",
+      "bytes": 2393
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_adc_stats_axis.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_adc_stats_axis.v",
+      "sha256": "735ede83e9342bb3fe2ae3e1da98b5c7a8ea81a8694fd6a7f796cb65a901552a",
+      "bytes": 7029
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_ddr_frame_reader.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_ddr_frame_reader.v",
+      "sha256": "cbd837ce90adaab21ce1e2e413a1029c1e3d49788b99971f2a8d23cbf4f41280",
+      "bytes": 7044
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_fft8192_hann.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_fft8192_hann.v",
+      "sha256": "60136d0225a6660b78847587e89c1291448f0e695107bb11dd4ba1af157c4fd4",
+      "bytes": 9172
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_iq_fft_core.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_iq_fft_core.v",
+      "sha256": "88557f9f015a33a44095b4ccdaa041291f52a200db7270067ec102483bd940c0",
+      "bytes": 3498
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_iq_lsq_axis.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_iq_lsq_axis.v",
+      "sha256": "f5588263c5b0e5a824484165c73a50665825a748e4b54eb6bcf8079ad83205d4",
+      "bytes": 6958
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fdw_wujing_dsp_top.v",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fdw_wujing_dsp_top.v",
+      "sha256": "54818df6b0ec165f8a3974c8f4b3d16115714db44d37e77a5cc47f2c978506ed",
+      "bytes": 8851
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fft_hann_q17.mem",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fft_hann_q17.mem",
+      "sha256": "0e976864dad0009ec7503ad45d563f8614d5af330a25e1dd99b9680532bd48e4",
+      "bytes": 57344
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/fft_twiddle_q18.mem",
+      "source": "FDW/hardware/wujing_pl_features/rtl/fft_twiddle_q18.mem",
+      "sha256": "6a9f8cdbea184a8ba1bc42dfd487f7cb6766878fcc439f7cfb62cc2ccd4b5201",
+      "bytes": 49152
+    },
+    {
+      "path": "hardware/wujing_pl/rtl/iq_sin_q16.mem",
+      "source": "FDW/hardware/wujing_pl_features/rtl/iq_sin_q16.mem",
+      "sha256": "72331877a5edf94abccf713bf65f732fb99d66a40d4b63bf311bda0dc8e4ae35",
+      "bytes": 28672
+    },
+    {
+      "path": "hardware/wujing_pl/constraints/fdw_dsp_cdc.xdc",
+      "source": "FDW/hardware/wujing_pl_features/constraints/fdw_dsp_cdc.xdc",
+      "sha256": "e71898febe0710100993afb8afa8d26a95e077477ee94f5a05095499c7ef9d07",
+      "bytes": 1969
+    },
+    {
+      "path": "hardware/wujing_pl/constraints/fdw_dsp_cdc_check.tcl",
+      "source": "FDW/hardware/wujing_pl_features/constraints/fdw_dsp_cdc_check.tcl",
+      "sha256": "b94d51ec1c545401a15d7acee711522cb75fdad00961420b23b15416947cd1a3",
+      "bytes": 1412
+    },
+    {
+      "path": "hardware/wujing_pl/sim/tb_fdw_adc_stats_axis.sv",
+      "source": "FDW/hardware/wujing_pl_features/sim/tb_fdw_adc_stats_axis.sv",
+      "sha256": "ca64a1ad9e49556903200f7368dc659c7edca626cd16c484f2c3484e57756e39",
+      "bytes": 6432
+    },
+    {
+      "path": "hardware/wujing_pl/sim/tb_fdw_ddr_frame_reader.sv",
+      "source": "FDW/hardware/wujing_pl_features/sim/tb_fdw_ddr_frame_reader.sv",
+      "sha256": "024912d080ea459b3860c6812993f1fb61aa9a07a6ed5fe93faa55bd7600f122",
+      "bytes": 5892
+    },
+    {
+      "path": "hardware/wujing_pl/sim/tb_fdw_iq_fft_core.sv",
+      "source": "FDW/hardware/wujing_pl_features/sim/tb_fdw_iq_fft_core.sv",
+      "sha256": "ce22feba4c4caef4d3f84948012b182d982d32e0967cee06f74ee36309ca71a2",
+      "bytes": 6439
+    },
+    {
+      "path": "hardware/wujing_pl/sim/tb_fdw_wujing_dsp_top.sv",
+      "source": "FDW/hardware/wujing_pl_features/sim/tb_fdw_wujing_dsp_top.sv",
+      "sha256": "016728c5e72a0a372adb361bcab1ef0491f11429f5b028b19f1e09f5573a4930",
+      "bytes": 6781
+    },
+    {
+      "path": "tools/test_r4_client.py",
+      "source": "FDW_NEXT/tools/test_r4_client.py",
+      "sha256": "b752a42c48c730984d5fa1a105f5257dda53770e6a6618ed8a3dfcd2b7633983",
+      "bytes": 5381,
+      "source_sha256": "e957538a367bbd56519a959ac2ceacadc251d1ab4dc8ae43baf15bcca62ca2d0",
+      "adaptation": "公开副本仅适配测试夹具路径、输出目录创建或编译器定位；原工程未修改"
+    },
+    {
+      "path": "tools/prepare_phase_sweep.py",
+      "source": "FDW_NEXT/tools/prepare_phase_sweep.py",
+      "sha256": "c3f26cfb9e399b1927aae917d7abfc719c5a627c08625bfb9ce94f947d59c1c5",
+      "bytes": 5060
+    },
+    {
+      "path": "tools/estimate_pcb_cycle.py",
+      "source": "FDW_NEXT/tools/estimate_pcb_cycle.py",
+      "sha256": "8fa4f8e26f41d97455ffc65481e17bcf3e0fc97bd00230cb5ea6f44bbf8cb0c8",
+      "bytes": 3937
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/adc_test_platform.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/adc_test_platform.h",
+      "sha256": "aefa920d987e1a716536701884b123fdeb3f6664293cc6b17fc17bb1be1d3e17",
+      "bytes": 1549
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/sleep.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/sleep.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/xaxidma.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/xaxidma.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/xgpio.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/xgpio.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/xil_cache.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/xil_cache.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/xparameters.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/xparameters.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/adc/xstatus.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/adc/xstatus.h",
+      "sha256": "0649ff1b52d92700f4de596b30268222fbe27db14f8a2802c5cf688d8cbd4f01",
+      "bytes": 31
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/lwip/err.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/lwip/err.h",
+      "sha256": "0a68b52a059bc0b273620b40996e4c05612c70499bbd44696b7407d518cda787",
+      "bytes": 30
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/lwip/mem.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/lwip/mem.h",
+      "sha256": "0a68b52a059bc0b273620b40996e4c05612c70499bbd44696b7407d518cda787",
+      "bytes": 30
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/lwip/pbuf.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/lwip/pbuf.h",
+      "sha256": "0a68b52a059bc0b273620b40996e4c05612c70499bbd44696b7407d518cda787",
+      "bytes": 30
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/lwip/tcp.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/lwip/tcp.h",
+      "sha256": "0a68b52a059bc0b273620b40996e4c05612c70499bbd44696b7407d518cda787",
+      "bytes": 30
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/mock_platform.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/mock_platform.h",
+      "sha256": "b8c25815601949ee0f6afca4db5780762b80cf7903077325855a06ca2b2f4b78",
+      "bytes": 1933
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/xil_io.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/xil_io.h",
+      "sha256": "1edb8a952d9c4d06d448841fc8ae2e90f568bce77523f2912acf01ffea6e4195",
+      "bytes": 160
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/xil_printf.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/xil_printf.h",
+      "sha256": "366087e340f2d548bd585b144944efe0263995dbe63a17096450214ff0856cb9",
+      "bytes": 27
+    },
+    {
+      "path": "tests/fixtures/7020_stubs/xiltimer.h",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_stubs/xiltimer.h",
+      "sha256": "366087e340f2d548bd585b144944efe0263995dbe63a17096450214ff0856cb9",
+      "bytes": 27
+    },
+    {
+      "path": "web/circuitscout/interface/__init__.py",
+      "source": "FDW/wujing/circuitscout_web/interface/__init__.py",
+      "sha256": "e36f322065e92a8c092f23a45de2c1411b6830e7132aafcfc7289a11b0f4168c",
+      "bytes": 1715
+    },
+    {
+      "path": "web/circuitscout/interface/__main__.py",
+      "source": "FDW/wujing/circuitscout_web/interface/__main__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "web/circuitscout/interface/kicad.py",
+      "source": "FDW/wujing/circuitscout_web/interface/kicad.py",
+      "sha256": "57dc3a093433176b438337f625c4ee85636b47f06efc8967b622c3b3f096a2bc",
+      "bytes": 14384
+    },
+    {
+      "path": "web/circuitscout/interface/serial.py",
+      "source": "FDW/wujing/circuitscout_web/interface/serial.py",
+      "sha256": "8cbe07e83c6b7761916b09ef745cf6aa03ecc8efd565c333319c9f4219d1f9d3",
+      "bytes": 8365
+    },
+    {
+      "path": "web/circuitscout/interface/static/css/kicanvas.css",
+      "source": "FDW/wujing/circuitscout_web/interface/static/css/kicanvas.css",
+      "sha256": "afededce7193ce28d4dd9144f934b12b648208aa238d26c1d2f04ee679bb765b",
+      "bytes": 2466
+    },
+    {
+      "path": "web/circuitscout/interface/static/css/main.css",
+      "source": "FDW/wujing/circuitscout_web/interface/static/css/main.css",
+      "sha256": "962b684f01d55bd5ee0b9cccb43d344b78eec1d9ca3df15aa052ef53d4cb90ac",
+      "bytes": 8854
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/arc.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/arc.js",
+      "sha256": "3b7090b08e97c60976309f769c3d8990e18498bb19dd257da88a1402a469fbcb",
+      "bytes": 8047
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/bbox.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/bbox.js",
+      "sha256": "7a76d92c4f96cf432cc99ee93d8e05575397ffb26889603bfd897ee6e8932f5d",
+      "bytes": 2035
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/items.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/items.js",
+      "sha256": "41ce1676c0994f1d6e0dcf0a266b667b5148511d6afece8e45ca2245c9ae22bd",
+      "bytes": 16500
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/kicanvas.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/kicanvas.js",
+      "sha256": "074b2c19fa05c7503f8da3d3d750da5e0a931eea5c20746d708295179d7ff52b",
+      "bytes": 12803
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/main.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/main.js",
+      "sha256": "3b7090b08e97c60976309f769c3d8990e18498bb19dd257da88a1402a469fbcb",
+      "bytes": 8047
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/parser.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/parser.js",
+      "sha256": "3e4b4e950718ee887d722998aec608b8819978a07644c7cf8f36d766df0a5824",
+      "bytes": 7755
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/render.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/render.js",
+      "sha256": "ab04fe8b6eea9dd6d455de0e36097dc8034eb1914133f338db3d52c34e3e44e8",
+      "bytes": 23417
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/style.css",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/style.css",
+      "sha256": "a75ea5002fef60b330c42e71b5aa243c6df215f758fd6dcd32d10c067354b0a8",
+      "bytes": 1960
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/tokenizer.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/tokenizer.js",
+      "sha256": "26e760ed6f4e1ead14e988a89c3e45b69f6f10c1741ac17de1f436905cd99a47",
+      "bytes": 3806
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/transform_stack.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/transform_stack.js",
+      "sha256": "2dcb78c5adb109436c96f1f5a9b13277997cfddaa6d24e848b07b3962df2b13e",
+      "bytes": 2398
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/kicanvas/utils.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/kicanvas/utils.js",
+      "sha256": "621ecba8b97749b3fdd69d2996fa4c93f0781e611f30bee3e5b9eb29c72edcb1",
+      "bytes": 2754
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/main.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/main.js",
+      "sha256": "eb8df1e44d75e79580d953ee6e61d78763b443c8e02f12604dff4b9ae08b7002",
+      "bytes": 19364
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/p5.min.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/p5.min.js",
+      "sha256": "9ce766eb93976116171e0ae9875a6facbcd7f498f23b8b9dc61612ea072fc4bd",
+      "bytes": 913568
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/socket.io.min.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/socket.io.min.js",
+      "sha256": "18a36a927dac54650b18b903f8f8778219e02e13946e581d9b3e1e4995f7435b",
+      "bytes": 44191
+    },
+    {
+      "path": "web/circuitscout/interface/static/js/socket.js",
+      "source": "FDW/wujing/circuitscout_web/interface/static/js/socket.js",
+      "sha256": "18d42ee2c1dff7941b1aceafbcf51226aca6cbfb1bcb1c7fb35fff518ddc1f80",
+      "bytes": 8055
+    },
+    {
+      "path": "web/circuitscout/interface/static/models/platform_body.stl",
+      "source": "FDW/wujing/circuitscout_web/interface/static/models/platform_body.stl",
+      "sha256": "119f11b4b3af8fedf791f0e68fa202b4b25a78f6047819c0685fb2a50cba6413",
+      "bytes": 98484
+    },
+    {
+      "path": "web/circuitscout/interface/static/models/platform_clip.stl",
+      "source": "FDW/wujing/circuitscout_web/interface/static/models/platform_clip.stl",
+      "sha256": "f962fbf306858d01b3ca44c6b2f7953630caf5b63e0d512fd89b4260c095923a",
+      "bytes": 65484
+    },
+    {
+      "path": "web/circuitscout/interface/static/models/platform_lock.stl",
+      "source": "FDW/wujing/circuitscout_web/interface/static/models/platform_lock.stl",
+      "sha256": "69008341b4c052649e71953af5802d7101c32e7beacd0dd0690a7918266aeb9b",
+      "bytes": 6084
+    },
+    {
+      "path": "web/circuitscout/interface/templates/base.html",
+      "source": "FDW/wujing/circuitscout_web/interface/templates/base.html",
+      "sha256": "3f39bb5d10a4d28c4e4032a9c4a8e0a039c3c553de87660251ec320cadaacf12",
+      "bytes": 12475
+    },
+    {
+      "path": "web/circuitscout/UPSTREAM_LICENSE.md",
+      "source": "FDW/wujing/circuitscout_web/UPSTREAM_LICENSE.md",
+      "sha256": "7c8c181c4a1ec30a60283628edc2d2de0f91759dcabcb8b54c444481026913ed",
+      "bytes": 1069
+    },
+    {
+      "path": "web/circuitscout/UPSTREAM_README.md",
+      "source": "FDW/wujing/circuitscout_web/UPSTREAM_README.md",
+      "sha256": "5728eb0036a451f7deeac20b21cf6a7f62bc70ec5ffc53f1a2a18d39cb55fa84",
+      "bytes": 1522
+    },
+    {
+      "path": "web/circuitscout/requirements.lock.txt",
+      "source": "FDW/wujing/circuitscout_web/requirements.lock.txt",
+      "sha256": "501ab42ec1c83b2ecad559b8136d676e7e37e94f68fa0b740a8b487e30cc5918",
+      "bytes": 384
+    },
+    {
+      "path": "web/circuitscout/test_project_c_web.py",
+      "source": "FDW/wujing/circuitscout_web/test_project_c_web.py",
+      "sha256": "63d9aa3c6ab43b58a3f5220aabfaea23eb2bbdcdcaedbe806ce5f903a21ee887",
+      "bytes": 2776
+    },
+    {
+      "path": "web/circuitscout/asset_sources.json",
+      "source": "FDW/wujing/circuitscout_web/asset_sources.json",
+      "sha256": "5f71f63f65f6d93a733cd09082ce7d04bb441a6a1a81d5f37e3e9f7d6f02c76d",
+      "bytes": 202
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V8_可编辑实体.SLDPRT",
+      "source": "FPGA嵌赛/侧壁连接支架_V8_可编辑实体.SLDPRT",
+      "sha256": "b4e22ba6775f56c7fa93e888ea3295278453f54380c7148dbe6bc22a19bb5e86",
+      "bytes": 876660
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V8_可编辑实体.step",
+      "source": "FPGA嵌赛/侧壁连接支架_V8_可编辑实体.step",
+      "sha256": "8f46a9d1da95b499ea929d3e0876eac6b21bb667b563c6c086cf5c69c82ca738",
+      "bytes": 1337941
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V8_修改后.STL",
+      "source": "FPGA嵌赛/侧壁连接支架_V8_修改后.STL",
+      "sha256": "34e4bf42ce5847d1ae3f04c49c082e0e800e9f097ac7ffca8a35841f5d981f74",
+      "bytes": 99084
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V11_可编辑实体.SLDPRT",
+      "source": "FPGA嵌赛/侧壁连接支架_V11_可编辑实体.SLDPRT",
+      "sha256": "a2f8f9d81f5232dee1acf3c002743f01be4ff873f62f106f620e3c7cc38a2435",
+      "bytes": 735476
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V11_可编辑实体.step",
+      "source": "FPGA嵌赛/侧壁连接支架_V11_可编辑实体.step",
+      "sha256": "73461716aad1150b595e356a90c9b3ee628062a2ba1bb623a07d6c96e67eee93",
+      "bytes": 1335587
+    },
+    {
+      "path": "mechanical/side_wall_brackets/侧壁连接支架_V11_修改后.STL",
+      "source": "FPGA嵌赛/侧壁连接支架_V11_修改后.STL",
+      "sha256": "a0d601fe9e6ca360fa26c82105d138d9a9ec796163e31e59870739ccab787a6b",
+      "bytes": 99284
+    },
+    {
+      "path": "analog_frontend/assets/测量头接线参考.png",
+      "source": "FDW_NEXT/outputs/checkpoint_114_measurement_review/lxb_done_schematic.png",
+      "sha256": "45a66be399b55ca7f07d01cbbc2d8ffa4653c182add6fc152b276f1cfb709f3f",
+      "bytes": 195944
+    },
+    {
+      "path": "tests/fixtures/r4_bulk_fixture.bin",
+      "source": "FDW_NEXT/outputs/checkpoint_99_7020_r4_lowrate_bulk/native_test_06/bulk_fixture.bin",
+      "sha256": "175225c1ea2235e853e0a01279729a14e8d06564f1be4a0326a87ec69e0ba74f",
+      "bytes": 16512
+    }
+  ]
+}

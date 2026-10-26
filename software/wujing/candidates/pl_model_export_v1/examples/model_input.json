@@ -1,0 +1,59 @@
+{
+  "schema": "zhixin.model-input/v1",
+  "feature_contract": "pl-lsq8192-dds-mean-v1",
+  "order": [
+    "Re(C/A)",
+    "Im(C/A)",
+    "DC_C/abs(A)",
+    "residual_C_RMS/abs(A)",
+    "Re(B/A)",
+    "Im(B/A)"
+  ],
+  "dtype": "float32",
+  "byte_order": "little",
+  "shape": [
+    1,
+    6
+  ],
+  "conditions": [
+    {
+      "condition": {
+        "condition_id": "synthetic_20k_rs100",
+        "point_id": "SYNTHETIC_C",
+        "frontend_profile_id": "SYNTHETIC_ONLY",
+        "acquisition_session_id": "synthetic_session",
+        "rs_nominal_ohm": 100,
+        "rs_measured_ohm": null,
+        "requested_frequency_hz": 20000,
+        "frequency_tolerance_ppm": 10,
+        "origin": "synthetic_test_vector",
+        "scope": "synthetic"
+      },
+      "actual_frequency_hz": 20000.000949949026,
+      "value": [
+        0.3535533845424652,
+        0.3535533845424652,
+        0.20000000298023224,
+        0.05000000074505806,
+        0.6928203105926514,
+        -0.4000000059604645
+      ],
+      "available": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "frames": 16,
+      "interval_ticks": 1,
+      "channel_unit": "ADC_counts",
+      "calibration_id": null,
+      "calibration_evidence_sha256": null
+    }
+  ],
+  "normalization": "由训练端保存并应用，本导出器不猜测均值或标准差",
+  "requires_model_encoder": true,
+  "npu_executed": false
+}

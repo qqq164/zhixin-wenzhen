@@ -1,0 +1,2713 @@
+{
+  "schema": "zhixin.pl-condition/v1",
+  "condition": {
+    "condition_id": "synthetic_20k_rs100",
+    "point_id": "SYNTHETIC_C",
+    "frontend_profile_id": "SYNTHETIC_ONLY",
+    "acquisition_session_id": "synthetic_session",
+    "rs_nominal_ohm": 100,
+    "rs_measured_ohm": null,
+    "requested_frequency_hz": 20000,
+    "frequency_tolerance_ppm": 10,
+    "origin": "synthetic_test_vector",
+    "scope": "synthetic"
+  },
+  "channels": {
+    "A": [
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 1,
+          "record_id": 1,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 10000,
+          "last_tick": 18191,
+          "first_phase_word": 1632,
+          "last_phase_word": 2374260890,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 1,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 2,
+          "record_id": 2,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 20000,
+          "last_tick": 28191,
+          "first_phase_word": 3264,
+          "last_phase_word": 2374262522,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 2,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 3,
+          "record_id": 3,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 30000,
+          "last_tick": 38191,
+          "first_phase_word": 4896,
+          "last_phase_word": 2374264154,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 3,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 4,
+          "record_id": 4,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 40000,
+          "last_tick": 48191,
+          "first_phase_word": 6528,
+          "last_phase_word": 2374265786,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 4,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 5,
+          "record_id": 5,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 50000,
+          "last_tick": 58191,
+          "first_phase_word": 8160,
+          "last_phase_word": 2374267418,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 5,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 6,
+          "record_id": 6,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 60000,
+          "last_tick": 68191,
+          "first_phase_word": 9792,
+          "last_phase_word": 2374269050,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 6,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 7,
+          "record_id": 7,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 70000,
+          "last_tick": 78191,
+          "first_phase_word": 11424,
+          "last_phase_word": 2374270682,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 7,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 8,
+          "record_id": 8,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 80000,
+          "last_tick": 88191,
+          "first_phase_word": 13056,
+          "last_phase_word": 2374272314,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 8,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 9,
+          "record_id": 9,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 90000,
+          "last_tick": 98191,
+          "first_phase_word": 14688,
+          "last_phase_word": 2374273946,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 9,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 10,
+          "record_id": 10,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 100000,
+          "last_tick": 108191,
+          "first_phase_word": 16320,
+          "last_phase_word": 2374275578,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 10,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 11,
+          "record_id": 11,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 110000,
+          "last_tick": 118191,
+          "first_phase_word": 17952,
+          "last_phase_word": 2374277210,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 11,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 12,
+          "record_id": 12,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 120000,
+          "last_tick": 128191,
+          "first_phase_word": 19584,
+          "last_phase_word": 2374278842,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 12,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 13,
+          "record_id": 13,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 130000,
+          "last_tick": 138191,
+          "first_phase_word": 21216,
+          "last_phase_word": 2374280474,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 13,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 14,
+          "record_id": 14,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 140000,
+          "last_tick": 148191,
+          "first_phase_word": 22848,
+          "last_phase_word": 2374282106,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 14,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 15,
+          "record_id": 15,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 150000,
+          "last_tick": 158191,
+          "first_phase_word": 24480,
+          "last_phase_word": 2374283738,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 15,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 16,
+          "record_id": 16,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 160000,
+          "last_tick": 168191,
+          "first_phase_word": 26112,
+          "last_phase_word": 2374285370,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 16,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      }
+    ],
+    "B": [
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 17,
+          "record_id": 17,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 170000,
+          "last_tick": 178191,
+          "first_phase_word": 27744,
+          "last_phase_word": 2374287002,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 17,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 18,
+          "record_id": 18,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 180000,
+          "last_tick": 188191,
+          "first_phase_word": 29376,
+          "last_phase_word": 2374288634,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 18,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 19,
+          "record_id": 19,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 190000,
+          "last_tick": 198191,
+          "first_phase_word": 31008,
+          "last_phase_word": 2374290266,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 19,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 20,
+          "record_id": 20,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 200000,
+          "last_tick": 208191,
+          "first_phase_word": 32640,
+          "last_phase_word": 2374291898,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 20,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 21,
+          "record_id": 21,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 210000,
+          "last_tick": 218191,
+          "first_phase_word": 34272,
+          "last_phase_word": 2374293530,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 21,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 22,
+          "record_id": 22,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 220000,
+          "last_tick": 228191,
+          "first_phase_word": 35904,
+          "last_phase_word": 2374295162,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 22,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 23,
+          "record_id": 23,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 230000,
+          "last_tick": 238191,
+          "first_phase_word": 37536,
+          "last_phase_word": 2374296794,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 23,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 24,
+          "record_id": 24,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 240000,
+          "last_tick": 248191,
+          "first_phase_word": 39168,
+          "last_phase_word": 2374298426,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 24,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 25,
+          "record_id": 25,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 250000,
+          "last_tick": 258191,
+          "first_phase_word": 40800,
+          "last_phase_word": 2374300058,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 25,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 26,
+          "record_id": 26,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 260000,
+          "last_tick": 268191,
+          "first_phase_word": 42432,
+          "last_phase_word": 2374301690,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 26,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 27,
+          "record_id": 27,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 270000,
+          "last_tick": 278191,
+          "first_phase_word": 44064,
+          "last_phase_word": 2374303322,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 27,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 28,
+          "record_id": 28,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 280000,
+          "last_tick": 288191,
+          "first_phase_word": 45696,
+          "last_phase_word": 2374304954,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 28,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 29,
+          "record_id": 29,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 290000,
+          "last_tick": 298191,
+          "first_phase_word": 47328,
+          "last_phase_word": 2374306586,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 29,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 30,
+          "record_id": 30,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 300000,
+          "last_tick": 308191,
+          "first_phase_word": 48960,
+          "last_phase_word": 2374308218,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 30,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 31,
+          "record_id": 31,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 310000,
+          "last_tick": 318191,
+          "first_phase_word": 50592,
+          "last_phase_word": 2374309850,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 31,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 32,
+          "record_id": 32,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 320000,
+          "last_tick": 328191,
+          "first_phase_word": 52224,
+          "last_phase_word": 2374311482,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 32,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            69.2820323027551,
+            -39.99999999999999
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      }
+    ],
+    "C": [
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 33,
+          "record_id": 33,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 330000,
+          "last_tick": 338191,
+          "first_phase_word": 53856,
+          "last_phase_word": 2374313114,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 33,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 34,
+          "record_id": 34,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 340000,
+          "last_tick": 348191,
+          "first_phase_word": 55488,
+          "last_phase_word": 2374314746,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 34,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 35,
+          "record_id": 35,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 350000,
+          "last_tick": 358191,
+          "first_phase_word": 57120,
+          "last_phase_word": 2374316378,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 35,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 36,
+          "record_id": 36,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 360000,
+          "last_tick": 368191,
+          "first_phase_word": 58752,
+          "last_phase_word": 2374318010,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 36,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 37,
+          "record_id": 37,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 370000,
+          "last_tick": 378191,
+          "first_phase_word": 60384,
+          "last_phase_word": 2374319642,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 37,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 38,
+          "record_id": 38,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 380000,
+          "last_tick": 388191,
+          "first_phase_word": 62016,
+          "last_phase_word": 2374321274,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 38,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 39,
+          "record_id": 39,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 390000,
+          "last_tick": 398191,
+          "first_phase_word": 63648,
+          "last_phase_word": 2374322906,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 39,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 40,
+          "record_id": 40,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 400000,
+          "last_tick": 408191,
+          "first_phase_word": 65280,
+          "last_phase_word": 2374324538,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 40,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 41,
+          "record_id": 41,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 410000,
+          "last_tick": 418191,
+          "first_phase_word": 66912,
+          "last_phase_word": 2374326170,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 41,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 42,
+          "record_id": 42,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 420000,
+          "last_tick": 428191,
+          "first_phase_word": 68544,
+          "last_phase_word": 2374327802,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 42,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 43,
+          "record_id": 43,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 430000,
+          "last_tick": 438191,
+          "first_phase_word": 70176,
+          "last_phase_word": 2374329434,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 43,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 44,
+          "record_id": 44,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 440000,
+          "last_tick": 448191,
+          "first_phase_word": 71808,
+          "last_phase_word": 2374331066,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 44,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 45,
+          "record_id": 45,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 450000,
+          "last_tick": 458191,
+          "first_phase_word": 73440,
+          "last_phase_word": 2374332698,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 45,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 46,
+          "record_id": 46,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 460000,
+          "last_tick": 468191,
+          "first_phase_word": 75072,
+          "last_phase_word": 2374334330,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 46,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 47,
+          "record_id": 47,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 470000,
+          "last_tick": 478191,
+          "first_phase_word": 76704,
+          "last_phase_word": 2374335962,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 47,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 48,
+          "record_id": 48,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 480000,
+          "last_tick": 488191,
+          "first_phase_word": 78336,
+          "last_phase_word": 2374337594,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 48,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            35.35533905932738,
+            35.35533905932738
+          ],
+          "dc_counts": 20.0,
+          "residual_rms_counts": 5.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      }
+    ],
+    "A_check": [
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 49,
+          "record_id": 49,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 490000,
+          "last_tick": 498191,
+          "first_phase_word": 79968,
+          "last_phase_word": 2374339226,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 49,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 50,
+          "record_id": 50,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 500000,
+          "last_tick": 508191,
+          "first_phase_word": 81600,
+          "last_phase_word": 2374340858,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 50,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 51,
+          "record_id": 51,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 510000,
+          "last_tick": 518191,
+          "first_phase_word": 83232,
+          "last_phase_word": 2374342490,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 51,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 52,
+          "record_id": 52,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 520000,
+          "last_tick": 528191,
+          "first_phase_word": 84864,
+          "last_phase_word": 2374344122,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 52,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 53,
+          "record_id": 53,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 530000,
+          "last_tick": 538191,
+          "first_phase_word": 86496,
+          "last_phase_word": 2374345754,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 53,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 54,
+          "record_id": 54,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 540000,
+          "last_tick": 548191,
+          "first_phase_word": 88128,
+          "last_phase_word": 2374347386,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 54,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 55,
+          "record_id": 55,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 550000,
+          "last_tick": 558191,
+          "first_phase_word": 89760,
+          "last_phase_word": 2374349018,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 55,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 56,
+          "record_id": 56,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 560000,
+          "last_tick": 568191,
+          "first_phase_word": 91392,
+          "last_phase_word": 2374350650,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 56,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 57,
+          "record_id": 57,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 570000,
+          "last_tick": 578191,
+          "first_phase_word": 93024,
+          "last_phase_word": 2374352282,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 57,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 58,
+          "record_id": 58,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 580000,
+          "last_tick": 588191,
+          "first_phase_word": 94656,
+          "last_phase_word": 2374353914,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 58,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 59,
+          "record_id": 59,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 590000,
+          "last_tick": 598191,
+          "first_phase_word": 96288,
+          "last_phase_word": 2374355546,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 59,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 60,
+          "record_id": 60,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 600000,
+          "last_tick": 608191,
+          "first_phase_word": 97920,
+          "last_phase_word": 2374357178,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 60,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 61,
+          "record_id": 61,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 610000,
+          "last_tick": 618191,
+          "first_phase_word": 99552,
+          "last_phase_word": 2374358810,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 61,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 62,
+          "record_id": 62,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 620000,
+          "last_tick": 628191,
+          "first_phase_word": 101184,
+          "last_phase_word": 2374360442,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 62,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 63,
+          "record_id": 63,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 630000,
+          "last_tick": 638191,
+          "first_phase_word": 102816,
+          "last_phase_word": 2374362074,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 63,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      },
+      {
+        "metadata": {
+          "metadata_version": 2,
+          "generation": 64,
+          "record_id": 64,
+          "sample_count": 8192,
+          "complete": true,
+          "errors": 0,
+          "dds_ftw": 3435974,
+          "dac_tag": 1,
+          "inverted": false,
+          "interval_ticks": 1,
+          "first_tick": 640000,
+          "last_tick": 648191,
+          "first_phase_word": 104448,
+          "last_phase_word": 2374363706,
+          "raw_clock_hz": 25000000,
+          "decimation_log2": 0,
+          "filter_id": 0,
+          "pipeline_tick_compensation": 0
+        },
+        "actual": {
+          "abi": 539365396,
+          "frame_id": 64,
+          "flags": 8,
+          "backend": "pl",
+          "cpu_fallback": false,
+          "digital_phase_record_consistent": true,
+          "dds_relative_real_imag_counts": [
+            100.0,
+            0.0
+          ],
+          "dc_counts": 0.0,
+          "residual_rms_counts": 1.0,
+          "saturation_count": 0,
+          "phase_reference_hardware_verified": false
+        },
+        "status": {
+          "flags": 8,
+          "overrange_count": 0
+        }
+      }
+    ]
+  }
+}

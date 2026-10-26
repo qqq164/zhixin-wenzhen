@@ -1,0 +1,31 @@
+{
+  "日期": "2026-10-26",
+  "类型": "原工程已完成工作的公开摘要",
+  "SENSE117": {
+    "offline_implementation_complete": true,
+    "firmware_revision": "R4-P1-IRQFP-SENSE117",
+    "board_revision": "LXB-R4-SENSE117",
+    "native_behavior_groups_passed": 6,
+    "python_tests_local_passed": 27,
+    "python_tests_board_passed": 27,
+    "new_7020_firmware_loaded": false,
+    "flash_written": false,
+    "live_control_activated": false,
+    "relay_contacts_verified": false,
+    "analog_settling_verified": false,
+    "pl_bit_unchanged": true
+  },
+  "模型格式": {
+    "feature_contract": "pl-lsq8192-dds-mean-v1",
+    "format_unit_tests_passed": 20,
+    "float32_json_bytes_identical": true,
+    "rs_settings_preserved": [
+      100,
+      10000
+    ],
+    "NPU_executed": false,
+    "new_hardware_measurement": false,
+    "full_model_encoder_implemented": false
+  },
+  "说明": "板端27项为模拟测试；本次公开更新没有加载固件或开展实物验证。"
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "智芯问诊单条件PL六项特征",
+  "type": "object",
+  "required": ["schema", "feature_contract", "order", "value", "available", "condition", "frames", "integration"],
+  "properties": {
+    "schema": {"const": "zhixin.pl-features/v1"},
+    "feature_contract": {"const": "pl-lsq8192-dds-mean-v1"},
+    "order": {"const": ["Re(C/A)", "Im(C/A)", "DC_C/abs(A)", "residual_C_RMS/abs(A)", "Re(B/A)", "Im(B/A)"]},
+    "value": {"type": "array", "minItems": 6, "maxItems": 6, "items": {"type": "number"}},
+    "available": {"const": [true, true, true, true, true, true]},
+    "frames": {"type": "integer", "minimum": 1},
+    "condition": {
+      "type": "object",
+      "required": ["condition_id", "point_id", "frontend_profile_id", "acquisition_session_id", "rs_nominal_ohm", "origin", "scope"],
+      "properties": {
+        "condition_id": {"type": "string", "minLength": 1},
+        "point_id": {"type": "string", "minLength": 1},
+        "rs_nominal_ohm": {"enum": [100, 10000]},
+        "origin": {"enum": ["hardware", "simulation", "synthetic_test_vector"]},
+        "scope": {"enum": ["real_dut", "direct_loopback", "virtual_network", "synthetic"]}
+      }
+    },
+    "integration": {"type": "object", "properties": {"format_ready": {"const": true}}}
+  }
+}

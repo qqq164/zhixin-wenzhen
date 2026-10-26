@@ -19,6 +19,8 @@ def main():
         ('CPU_RC求解器', [sys.executable, '-B', 'software/wujing/candidates/rc_network_cpu_v1/test_rc_network.py']),
         ('采集客户端与特征', [sys.executable, '-B', '-m', 'unittest', 'discover', '-s', 'software/wujing/tests', '-p', 'test_*.py', '-v']),
         ('R4整帧与相位', [sys.executable, '-B', '-m', 'unittest', 'discover', '-s', 'tools', '-p', 'test_r4_client.py', '-v']),
+        ('SENSE117采样编排', [sys.executable, '-B', 'software/wujing/candidates/sense_sequence117/test_sense_sequence.py']),
+        ('PL模型格式导出', [sys.executable, '-B', 'software/wujing/candidates/pl_model_export_v1/test_model_export.py']),
     ]
     report = {'类型': '公开整理后的离线回归', '新硬件测量': False, 'checks': [], 'passed': True}
     for name, command in cases:

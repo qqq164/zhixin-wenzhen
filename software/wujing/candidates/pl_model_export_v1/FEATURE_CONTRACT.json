@@ -1,0 +1,21 @@
+{
+  "schema": "zhixin.pl-features/v1",
+  "feature_contract": "pl-lsq8192-dds-mean-v1",
+  "order": ["Re(C/A)", "Im(C/A)", "DC_C/abs(A)", "residual_C_RMS/abs(A)", "Re(B/A)", "Im(B/A)"],
+  "rs_nominal_ohm": [100, 10000],
+  "per_condition_feature_count": 6,
+  "sample_count_per_frame": 8192,
+  "phase_reference": "沿用现有PL运行端dds_relative_real_imag_counts，不再次补偿首相位或CIC",
+  "complex_average": "各路同条件复相量取算术平均，再计算C/A、B/A",
+  "dc_definition": "各路8192点最小二乘拟合DC的算术平均",
+  "residual_definition": "sqrt(mean(每帧8192点最小二乘拟合残差RMS的平方))",
+  "units": "六项特征均为无量纲；通道统计另标ADC_counts或V",
+  "window": "整帧8192点，沿用既有PL拟合；不是裁切4周期并相位网格平均",
+  "equivalent_to_sense_periodic4_f64_v1": false,
+  "model_input_dtype": "float32",
+  "model_input_byte_order": "little",
+  "model_input_shape": ["条件数", 6],
+  "normalization": "由训练端根据本接口数据拟合、保存并应用",
+  "full_npu_tensor": "由训练端编码器按模型定义组装，不假设470维的排列",
+  "scope": "接口格式与数据导出，不执行硬件验证或NPU推理"
+}

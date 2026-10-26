@@ -1,0 +1,18 @@
+{
+  "feature_contract": "pl-lsq8192-dds-mean-v1",
+  "order": [
+    "Re(C/A)",
+    "Im(C/A)",
+    "DC_C/abs(A)",
+    "residual_C_RMS/abs(A)",
+    "Re(B/A)",
+    "Im(B/A)"
+  ],
+  "rs_nominal_ohm": [
+    100,
+    10000
+  ],
+  "frames_per_channel": 16,
+  "frontend_profile_id": "SYNTHETIC_ONLY",
+  "trained_and_validated": false
+}
